@@ -9,6 +9,7 @@ def the_actual_thing():
         time.sleep(0.1)
         pyautogui.move(random.randint(-100,100),random.randint(-100,100))
 
+
 if ison == "yes":
     print("yippe")
     the_actual_thing()
